@@ -1,5 +1,6 @@
 # PHBNonInteractableViews
-UI*View subclasses that override hitTest to pass interactions through to their parent views
+
+UI\*View subclasses that override `hitTest` to pass interactions through to their parent views
 
 ## isUserInteractionEnabled vs hitTest
 
