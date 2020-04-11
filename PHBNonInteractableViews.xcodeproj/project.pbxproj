@@ -14,6 +14,7 @@
 		0AB1B8402441C5E7000EE5EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AB1B83E2441C5E7000EE5EE /* Main.storyboard */; };
 		0AB1B8422441C5E8000EE5EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AB1B8412441C5E8000EE5EE /* Assets.xcassets */; };
 		0AB1B8452441C5E8000EE5EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AB1B8432441C5E8000EE5EE /* LaunchScreen.storyboard */; };
+		0AB1B84B2441C9A1000EE5EE /* NonInteractableViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB1B84A2441C9A1000EE5EE /* NonInteractableViews.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		0AB1B8412441C5E8000EE5EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0AB1B8442441C5E8000EE5EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0AB1B8462441C5E8000EE5EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AB1B84A2441C9A1000EE5EE /* NonInteractableViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NonInteractableViews.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 			children = (
 				0AB1B82A2441C583000EE5EE /* PHBNonInteractableViews.h */,
 				0AB1B82B2441C583000EE5EE /* Info.plist */,
+				0AB1B84A2441C9A1000EE5EE /* NonInteractableViews.swift */,
 			);
 			path = PHBNonInteractableViews;
 			sourceTree = "<group>";
@@ -150,6 +153,7 @@
 				TargetAttributes = {
 					0AB1B8262441C583000EE5EE = {
 						CreatedOnToolsVersion = 11.4;
+						LastSwiftMigration = 1140;
 					};
 					0AB1B8352441C5E7000EE5EE = {
 						CreatedOnToolsVersion = 11.4;
@@ -200,6 +204,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AB1B84B2441C9A1000EE5EE /* NonInteractableViews.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,6 +363,7 @@
 		0AB1B8302441C583000EE5EE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = P6TJCT8E35;
@@ -374,6 +380,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = io.github.phlippieb.PHBNonInteractableViews;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -382,6 +389,7 @@
 		0AB1B8312441C583000EE5EE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = P6TJCT8E35;
