@@ -23,14 +23,11 @@ This library provides such subclasses of common UIView-types which override `hit
 
 ### Cocoapods
 
-PHBStackLayout is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+You know the drill.
 
 ```ruby
 pod 'PHBNonInteractableViews'
 ```
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Author
 
